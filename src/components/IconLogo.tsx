@@ -1,0 +1,18 @@
+export const IconLogo = () => {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="32" height="32" rx="5" fill="#A0AAB6" />
+      <path
+        d="M6.82662 23H4.49707L9.73145 8.45453H12.267L17.5013 23H15.1718L11.0596 11.0966H10.9459L6.82662 23ZM7.21724 17.304H14.7741V19.1506H7.21724V17.304Z"
+        fill="white"
+      />
+      <rect x="19" y="21" width="10" height="2" fill="white" />
+    </svg>
+  );
+};

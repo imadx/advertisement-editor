@@ -8,7 +8,6 @@
 
 .container > header {
   flex: 1 100%;
-  padding: 1rem;
 }
 
 .container > div:nth-child(2) {
