@@ -10,3 +10,19 @@
   color: var(--text-color-grey);
   text-align: left;
 }
+
+.callToAction {
+  display: flex;
+  flex-direction: column;
+}
+
+.callToAction input:nth-child(1) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.callToAction input:nth-child(2) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: -1px;
+}

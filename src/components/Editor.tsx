@@ -60,31 +60,33 @@ export const Editor = () => {
           <input
             type="text"
             name="title"
+            placeholder="Title"
             onChange={handleOnChangeText}
             value={advertisement.title}
           />
         }
       />
       <InputSection
-        label="Call to action label"
+        label="Call to action"
         input={
-          <input
-            type="text"
-            name="callToActionText"
-            onChange={handleOnChangeText}
-            value={advertisement.callToActionText}
-          />
-        }
-      />
-      <InputSection
-        label="Call to action link"
-        input={
-          <input
-            type="text"
-            name="callToActionLink"
-            onChange={handleOnChangeText}
-            value={advertisement.callToActionLink}
-          />
+          <>
+            <div className={styles.callToAction}>
+              <input
+                type="text"
+                name="callToActionText"
+                placeholder="Label (eg: Click here)"
+                onChange={handleOnChangeText}
+                value={advertisement.callToActionText}
+              />
+              <input
+                type="text"
+                name="callToActionLink"
+                placeholder="Link (eg: https://example.com)"
+                onChange={handleOnChangeText}
+                value={advertisement.callToActionLink}
+              />
+            </div>
+          </>
         }
       />
       <InputSection
@@ -92,6 +94,7 @@ export const Editor = () => {
         input={
           <textarea
             name="content"
+            placeholder="Content"
             onChange={handleOnChangeText}
             value={advertisement.content}
           />
