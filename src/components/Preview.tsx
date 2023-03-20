@@ -69,7 +69,7 @@ export const Preview = () => {
   const lineHeightDelta = `${lineSpacing}em`;
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-test-id="advertisement-preview">
       <div className={styles.display}>
         <h2>Preview</h2>
         <div
