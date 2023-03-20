@@ -1,0 +1,30 @@
+.container {
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+label > span {
+  font-size: small;
+  color: var(--text-color-grey);
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  font-family: var(--font-family);
+}
+
+textarea {
+  max-width: 100%;
+}

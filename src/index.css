@@ -1,0 +1,39 @@
+:root {
+  --background-color-page: #d9dde2;
+  --background-color-editor: #fff;
+  --background-color-preview: #a0aab6;
+  --background-color-preview-details: #848c97;
+
+  --text-color-white: #fff;
+  --text-color-black: #131921;
+  --text-color-grey: #868b98;
+
+  --color-accent: #6f52f2;
+  --color-border: #efeff0;
+
+  --padding-default: 2rem 2rem;
+  --border-radius-default: 0.5rem;
+
+  --font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  background-color: #d9dde2;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+input {
+  accent-color: var(--color-accent);
+}
