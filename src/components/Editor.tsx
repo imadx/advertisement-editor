@@ -12,6 +12,8 @@ import {
   setAdvertisementWidth,
 } from "../store/slices/advertisement";
 import { useAppSelector } from "../store/hooks";
+import { IconLink } from "./IconLink";
+import { IconType } from "./IconType";
 
 export const Editor = () => {
   const dispatch = useDispatch();
@@ -85,6 +87,8 @@ export const Editor = () => {
                 onChange={handleOnChangeText}
                 value={advertisement.callToActionLink}
               />
+              <IconType />
+              <IconLink />
             </div>
           </>
         }
@@ -136,7 +140,7 @@ export const Editor = () => {
             name="advertisementWidth"
             onChange={handleOnChangeNumeric}
             value={advertisement.advertisementWidth}
-            min="100"
+            min="200"
             max="400"
           />
         }
