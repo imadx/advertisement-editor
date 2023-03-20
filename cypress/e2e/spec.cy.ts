@@ -1,6 +1,6 @@
 describe("template spec", () => {
   it("passes", () => {
-    cy.visit("http://localhost:5173/");
+    cy.visit("https://advertisement-editor.onrender.com/");
 
     // Title updates
     cy.get('input[name="title"]').clear().type("Updated Advertisement");
